@@ -43,7 +43,7 @@ class PasswordScreen extends StatefulWidget {
 
 class _PasswordScreenState extends State<PasswordScreen> {
   final TextEditingController _passwordController = TextEditingController();
-  final String correctPassword = "project30a";
+  final String correctPassword = "test";
   bool _isPasswordVisible = false;
   String? _errorMessage;
 
